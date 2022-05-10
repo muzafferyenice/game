@@ -9,7 +9,11 @@ public abstract class Location {
     protected Player player;
     protected String name;
 
+<<<<<<<< HEAD:src/gameYusuf/Location.java
     Location(Player player){
+========
+    protected Location(Player player){
+>>>>>>>> 9a2d5a6 (Game 10/05/2022):src/game/Location.java
         this.player=player;
     }
     public abstract boolean getLocation();
