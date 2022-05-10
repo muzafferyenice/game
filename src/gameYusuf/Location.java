@@ -1,4 +1,6 @@
-package game;
+package gameYusuf;
+
+import game.Player;
 
 import java.util.Scanner;
 
@@ -7,7 +9,7 @@ public abstract class Location {
     protected Player player;
     protected String name;
 
-    protected Location(Player player){
+    Location(Player player){
         this.player=player;
     }
     public abstract boolean getLocation();
