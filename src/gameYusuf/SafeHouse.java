@@ -1,6 +1,9 @@
-package game;
+package gameYusuf;
 
-public class SafeHouse extends NormalLoc{
+import game.NormalLoc;
+import game.Player;
+
+public class SafeHouse extends NormalLoc {
     SafeHouse(Player player) {
         super(player,"Güvenli Ev");
     }
