@@ -110,4 +110,6 @@ public class Player {
     public void setrHeatly(int rHeatly) {
         this.rHeatly = rHeatly;
     }
+
+    //nasıl olacak
 }
